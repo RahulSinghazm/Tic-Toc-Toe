@@ -14,6 +14,7 @@ Many more!
  while game_on:
  
         if turn == 'Player 1':
+        
             display_board(theBoard)
             position = player_choice(theBoard)
             place_marker(theBoard, player1_marker, position)
@@ -29,6 +30,7 @@ Many more!
                 else:
                     turn = 'Player 2'
         else: 
+        
             display_board(theBoard)
             position = player_choice(theBoard)
             place_marker(theBoard, player2_marker, position)
@@ -37,11 +39,13 @@ Many more!
                 print('Player 2 has won!')
                 game_on = False
             else:
+            
                 if full_board_check(theBoard):
                     display_board(theBoard)
                     print('The game is a tie!')
                     break
                 else:
                     turn = 'Player 1'
+                    
     if not replay():
         break
