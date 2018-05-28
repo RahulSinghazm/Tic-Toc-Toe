@@ -49,3 +49,8 @@ Many more!
                     
     if not replay():
         break
+
+
+![screenshot 72](https://user-images.githubusercontent.com/34129569/40606487-22bcb1cc-6283-11e8-89bb-ea51d0e8462f.png)
+
+![screenshot 71](https://user-images.githubusercontent.com/34129569/40606529-486d15d8-6283-11e8-9e84-edec2d6c8d0f.png)
